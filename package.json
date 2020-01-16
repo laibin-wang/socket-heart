@@ -1,0 +1,29 @@
+{
+  "name": "socket-heart",
+  "version": "0.0.1",
+  "description": "基于ES6的class 来封装的WebSocket，包含心跳，断线重连。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laibin-wang/socket-heart.git"
+  },
+  "keywords": [
+    "es6",
+    "class",
+    "websocket",
+    "socket",
+    "heart-beat",
+    "connection",
+    "heartbeat",
+    "destory"
+  ],
+  "author": "wanglaibin <196903819@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laibin-wang/socket-heart/issues"
+  },
+  "homepage": "https://github.com/laibin-wang/socket-heart#readme"
+}
