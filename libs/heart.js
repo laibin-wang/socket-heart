@@ -25,7 +25,7 @@ export class Heart {
       this.SERVER_HEART_TIMEOUT = setTimeout(() => {
         cb()
         // 重新开始检测
-        this.reset().start(cb())
+        this.reset().start(cb)
       }, this.timeout)
     }, this.timeout)
   }
