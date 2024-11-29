@@ -1,6 +1,6 @@
 {
   "name": "socket-heart",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "基于ES6的class 来封装的WebSocket，包含心跳，断线重连。",
   "main": "index.js",
   "scripts": {
