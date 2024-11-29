@@ -6,8 +6,8 @@ export class Heart {
   HEART_TIMEOUT = null // 心跳计时器
   SERVER_HEART_TIMEOUT = null // 心跳计时器
 
-  constructor () {
-    this.timeout = 5000
+  constructor (timeout = 5000) {
+    this.timeout = timeout
   }
   // 重置
   reset () {

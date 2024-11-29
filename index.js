@@ -20,7 +20,7 @@ export class Socket extends Heart {
     errorCb: null // 错误的回调
   }
   constructor (ops) {
-    super()
+    super(ops.heartTime)
     Object.assign(this.OPTIONS, ops)
     this.create()
   }
